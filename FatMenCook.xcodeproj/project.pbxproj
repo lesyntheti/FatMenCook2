@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641A9DA2238E5F8100FEBA40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A9DA1238E5F8100FEBA40 /* AppDelegate.swift */; };
+		641A9DA4238E5F8100FEBA40 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A9DA3238E5F8100FEBA40 /* FirstViewController.swift */; };
+		641A9DA6238E5F8100FEBA40 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A9DA5238E5F8100FEBA40 /* SecondViewController.swift */; };
+		641A9DA9238E5F8100FEBA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641A9DA7238E5F8100FEBA40 /* Main.storyboard */; };
+		641A9DAB238E5F8400FEBA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641A9DAA238E5F8400FEBA40 /* Assets.xcassets */; };
+		641A9DAE238E5F8400FEBA40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641A9DAC238E5F8400FEBA40 /* LaunchScreen.storyboard */; };
+		641A9DB9238E5F8400FEBA40 /* FatMenCookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A9DB8238E5F8400FEBA40 /* FatMenCookTests.swift */; };
+		641A9DC4238E5F8400FEBA40 /* FatMenCookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A9DC3238E5F8400FEBA40 /* FatMenCookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		641A9DB5238E5F8400FEBA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641A9D96238E5F8100FEBA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A9D9D238E5F8100FEBA40;
+			remoteInfo = FatMenCook;
+		};
+		641A9DC0238E5F8400FEBA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641A9D96238E5F8100FEBA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A9D9D238E5F8100FEBA40;
+			remoteInfo = FatMenCook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		641A9D9E238E5F8100FEBA40 /* FatMenCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatMenCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		641A9DA1238E5F8100FEBA40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		641A9DA3238E5F8100FEBA40 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		641A9DA5238E5F8100FEBA40 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		641A9DA8238E5F8100FEBA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		641A9DAA238E5F8400FEBA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		641A9DAD238E5F8400FEBA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		641A9DAF238E5F8400FEBA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641A9DB4238E5F8400FEBA40 /* FatMenCookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatMenCookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641A9DB8238E5F8400FEBA40 /* FatMenCookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatMenCookTests.swift; sourceTree = "<group>"; };
+		641A9DBA238E5F8400FEBA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641A9DBF238E5F8400FEBA40 /* FatMenCookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatMenCookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641A9DC3238E5F8400FEBA40 /* FatMenCookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatMenCookUITests.swift; sourceTree = "<group>"; };
+		641A9DC5238E5F8400FEBA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		641A9D9B238E5F8100FEBA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641A9DB1238E5F8400FEBA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641A9DBC238E5F8400FEBA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641A9D95238E5F8100FEBA40 = {
+			isa = PBXGroup;
+			children = (
+				641A9DA0238E5F8100FEBA40 /* FatMenCook */,
+				641A9DB7238E5F8400FEBA40 /* FatMenCookTests */,
+				641A9DC2238E5F8400FEBA40 /* FatMenCookUITests */,
+				641A9D9F238E5F8100FEBA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		641A9D9F238E5F8100FEBA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641A9D9E238E5F8100FEBA40 /* FatMenCook.app */,
+				641A9DB4238E5F8400FEBA40 /* FatMenCookTests.xctest */,
+				641A9DBF238E5F8400FEBA40 /* FatMenCookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641A9DA0238E5F8100FEBA40 /* FatMenCook */ = {
+			isa = PBXGroup;
+			children = (
+				641A9DA1238E5F8100FEBA40 /* AppDelegate.swift */,
+				641A9DA3238E5F8100FEBA40 /* FirstViewController.swift */,
+				641A9DA5238E5F8100FEBA40 /* SecondViewController.swift */,
+				641A9DA7238E5F8100FEBA40 /* Main.storyboard */,
+				641A9DAA238E5F8400FEBA40 /* Assets.xcassets */,
+				641A9DAC238E5F8400FEBA40 /* LaunchScreen.storyboard */,
+				641A9DAF238E5F8400FEBA40 /* Info.plist */,
+			);
+			path = FatMenCook;
+			sourceTree = "<group>";
+		};
+		641A9DB7238E5F8400FEBA40 /* FatMenCookTests */ = {
+			isa = PBXGroup;
+			children = (
+				641A9DB8238E5F8400FEBA40 /* FatMenCookTests.swift */,
+				641A9DBA238E5F8400FEBA40 /* Info.plist */,
+			);
+			path = FatMenCookTests;
+			sourceTree = "<group>";
+		};
+		641A9DC2238E5F8400FEBA40 /* FatMenCookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				641A9DC3238E5F8400FEBA40 /* FatMenCookUITests.swift */,
+				641A9DC5238E5F8400FEBA40 /* Info.plist */,
+			);
+			path = FatMenCookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		641A9D9D238E5F8100FEBA40 /* FatMenCook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641A9DC8238E5F8400FEBA40 /* Build configuration list for PBXNativeTarget "FatMenCook" */;
+			buildPhases = (
+				641A9D9A238E5F8100FEBA40 /* Sources */,
+				641A9D9B238E5F8100FEBA40 /* Frameworks */,
+				641A9D9C238E5F8100FEBA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FatMenCook;
+			productName = FatMenCook;
+			productReference = 641A9D9E238E5F8100FEBA40 /* FatMenCook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		641A9DB3238E5F8400FEBA40 /* FatMenCookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641A9DCB238E5F8400FEBA40 /* Build configuration list for PBXNativeTarget "FatMenCookTests" */;
+			buildPhases = (
+				641A9DB0238E5F8400FEBA40 /* Sources */,
+				641A9DB1238E5F8400FEBA40 /* Frameworks */,
+				641A9DB2238E5F8400FEBA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641A9DB6238E5F8400FEBA40 /* PBXTargetDependency */,
+			);
+			name = FatMenCookTests;
+			productName = FatMenCookTests;
+			productReference = 641A9DB4238E5F8400FEBA40 /* FatMenCookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		641A9DBE238E5F8400FEBA40 /* FatMenCookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641A9DCE238E5F8400FEBA40 /* Build configuration list for PBXNativeTarget "FatMenCookUITests" */;
+			buildPhases = (
+				641A9DBB238E5F8400FEBA40 /* Sources */,
+				641A9DBC238E5F8400FEBA40 /* Frameworks */,
+				641A9DBD238E5F8400FEBA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641A9DC1238E5F8400FEBA40 /* PBXTargetDependency */,
+			);
+			name = FatMenCookUITests;
+			productName = FatMenCookUITests;
+			productReference = 641A9DBF238E5F8400FEBA40 /* FatMenCookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		641A9D96238E5F8100FEBA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Guillaume Bayle";
+				TargetAttributes = {
+					641A9D9D238E5F8100FEBA40 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					641A9DB3238E5F8400FEBA40 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 641A9D9D238E5F8100FEBA40;
+					};
+					641A9DBE238E5F8400FEBA40 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 641A9D9D238E5F8100FEBA40;
+					};
+				};
+			};
+			buildConfigurationList = 641A9D99238E5F8100FEBA40 /* Build configuration list for PBXProject "FatMenCook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 641A9D95238E5F8100FEBA40;
+			productRefGroup = 641A9D9F238E5F8100FEBA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				641A9D9D238E5F8100FEBA40 /* FatMenCook */,
+				641A9DB3238E5F8400FEBA40 /* FatMenCookTests */,
+				641A9DBE238E5F8400FEBA40 /* FatMenCookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		641A9D9C238E5F8100FEBA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641A9DAE238E5F8400FEBA40 /* LaunchScreen.storyboard in Resources */,
+				641A9DAB238E5F8400FEBA40 /* Assets.xcassets in Resources */,
+				641A9DA9238E5F8100FEBA40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641A9DB2238E5F8400FEBA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641A9DBD238E5F8400FEBA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		641A9D9A238E5F8100FEBA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641A9DA6238E5F8100FEBA40 /* SecondViewController.swift in Sources */,
+				641A9DA2238E5F8100FEBA40 /* AppDelegate.swift in Sources */,
+				641A9DA4238E5F8100FEBA40 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641A9DB0238E5F8400FEBA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641A9DB9238E5F8400FEBA40 /* FatMenCookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641A9DBB238E5F8400FEBA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641A9DC4238E5F8400FEBA40 /* FatMenCookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		641A9DB6238E5F8400FEBA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A9D9D238E5F8100FEBA40 /* FatMenCook */;
+			targetProxy = 641A9DB5238E5F8400FEBA40 /* PBXContainerItemProxy */;
+		};
+		641A9DC1238E5F8400FEBA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A9D9D238E5F8100FEBA40 /* FatMenCook */;
+			targetProxy = 641A9DC0238E5F8400FEBA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		641A9DA7238E5F8100FEBA40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641A9DA8238E5F8100FEBA40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		641A9DAC238E5F8400FEBA40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641A9DAD238E5F8400FEBA40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		641A9DC6238E5F8400FEBA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		641A9DC7238E5F8400FEBA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		641A9DC9238E5F8400FEBA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatMenCook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home-try.FatMenCook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		641A9DCA238E5F8400FEBA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatMenCook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home-try.FatMenCook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		641A9DCC238E5F8400FEBA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatMenCookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home-try.FatMenCookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatMenCook.app/FatMenCook";
+			};
+			name = Debug;
+		};
+		641A9DCD238E5F8400FEBA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatMenCookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home-try.FatMenCookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatMenCook.app/FatMenCook";
+			};
+			name = Release;
+		};
+		641A9DCF238E5F8400FEBA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatMenCookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home-try.FatMenCookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FatMenCook;
+			};
+			name = Debug;
+		};
+		641A9DD0238E5F8400FEBA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatMenCookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home-try.FatMenCookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FatMenCook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		641A9D99238E5F8100FEBA40 /* Build configuration list for PBXProject "FatMenCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641A9DC6238E5F8400FEBA40 /* Debug */,
+				641A9DC7238E5F8400FEBA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641A9DC8238E5F8400FEBA40 /* Build configuration list for PBXNativeTarget "FatMenCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641A9DC9238E5F8400FEBA40 /* Debug */,
+				641A9DCA238E5F8400FEBA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641A9DCB238E5F8400FEBA40 /* Build configuration list for PBXNativeTarget "FatMenCookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641A9DCC238E5F8400FEBA40 /* Debug */,
+				641A9DCD238E5F8400FEBA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641A9DCE238E5F8400FEBA40 /* Build configuration list for PBXNativeTarget "FatMenCookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641A9DCF238E5F8400FEBA40 /* Debug */,
+				641A9DD0238E5F8400FEBA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 641A9D96238E5F8100FEBA40 /* Project object */;
+}
